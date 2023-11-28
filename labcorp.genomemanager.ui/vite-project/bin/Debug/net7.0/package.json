@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "@carbon/styles": "^1.41.2",
+    "carbon-components": "^10.58.10"
+  }
+}

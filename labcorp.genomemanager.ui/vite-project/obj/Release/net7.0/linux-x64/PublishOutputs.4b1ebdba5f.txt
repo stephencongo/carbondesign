@@ -1,0 +1,7 @@
+c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\publish\labcorp.genomemanager.ui
+c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\publish\appsettings.Development.json
+c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\publish\appsettings.json
+c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\publish\labcorp.genomemanager.ui.dll
+c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\publish\labcorp.genomemanager.ui.deps.json
+c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\publish\labcorp.genomemanager.ui.runtimeconfig.json
+c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\publish\labcorp.genomemanager.ui.pdb

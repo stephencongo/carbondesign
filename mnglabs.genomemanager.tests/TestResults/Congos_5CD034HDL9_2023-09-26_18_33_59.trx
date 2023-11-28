@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="fb293743-6877-4b70-a492-9860b4ff1c69" name="Congos@5CD034HDL9 2023-09-26 18:33:59" runUser="LCA\Congos" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2023-09-26T18:33:59.2948773-04:00" queuing="2023-09-26T18:33:59.2948774-04:00" start="2023-09-26T18:33:57.7753580-04:00" finish="2023-09-26T18:33:59.3005616-04:00" />
+  <TestSettings name="default" id="d2f2b700-d92b-4275-9996-b43b72f9f965">
+    <Deployment runDeploymentRoot="Congos_5CD034HDL9_2023-09-26_18_33_59" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="22905350-27a8-4e7a-a064-e6320afae54f" testId="3beaed06-b57a-5257-edb2-4ebf54213b4c" testName="Test1" computerName="5CD034HDL9" duration="00:00:00.0213820" startTime="2023-09-26T18:33:58.9968663-04:00" endTime="2023-09-26T18:33:59.0181756-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="22905350-27a8-4e7a-a064-e6320afae54f" />
+    <UnitTestResult executionId="9d7c854f-d6dc-43bf-9bab-e4a0e08b4ec6" testId="8e96d4e1-42be-6ddb-1808-6e617861d346" testName="Test2" computerName="5CD034HDL9" duration="00:00:00.0003560" startTime="2023-09-26T18:33:59.0198956-04:00" endTime="2023-09-26T18:33:59.0202510-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="9d7c854f-d6dc-43bf-9bab-e4a0e08b4ec6" />
+    <UnitTestResult executionId="c3edb2c4-22cb-43e3-802f-2da8f410a32b" testId="655e3dab-3b8f-1051-e558-4a78c4cf237d" testName="Test3" computerName="5CD034HDL9" duration="00:00:00.0001940" startTime="2023-09-26T18:33:59.0202868-04:00" endTime="2023-09-26T18:33:59.0204803-04:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="c3edb2c4-22cb-43e3-802f-2da8f410a32b" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Test1" storage="c:\projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\debug\net7.0\mnglabs.genomemanager.tests.dll" id="3beaed06-b57a-5257-edb2-4ebf54213b4c">
+      <Execution id="22905350-27a8-4e7a-a064-e6320afae54f" />
+      <TestMethod codeBase="c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\Debug\net7.0\mnglabs.genomemanager.tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="mnglabs.genomemanager.tests.Tests" name="Test1" />
+    </UnitTest>
+    <UnitTest name="Test2" storage="c:\projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\debug\net7.0\mnglabs.genomemanager.tests.dll" id="8e96d4e1-42be-6ddb-1808-6e617861d346">
+      <Execution id="9d7c854f-d6dc-43bf-9bab-e4a0e08b4ec6" />
+      <TestMethod codeBase="c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\Debug\net7.0\mnglabs.genomemanager.tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="mnglabs.genomemanager.tests.Tests" name="Test2" />
+    </UnitTest>
+    <UnitTest name="Test3" storage="c:\projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\debug\net7.0\mnglabs.genomemanager.tests.dll" id="655e3dab-3b8f-1051-e558-4a78c4cf237d">
+      <Execution id="c3edb2c4-22cb-43e3-802f-2da8f410a32b" />
+      <TestMethod codeBase="c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\Debug\net7.0\mnglabs.genomemanager.tests.dll" adapterTypeName="executor://nunit3testexecutor/" className="mnglabs.genomemanager.tests.Tests" name="Test3" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="3beaed06-b57a-5257-edb2-4ebf54213b4c" executionId="22905350-27a8-4e7a-a064-e6320afae54f" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="8e96d4e1-42be-6ddb-1808-6e617861d346" executionId="9d7c854f-d6dc-43bf-9bab-e4a0e08b4ec6" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="655e3dab-3b8f-1051-e558-4a78c4cf237d" executionId="c3edb2c4-22cb-43e3-802f-2da8f410a32b" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="3" executed="3" passed="3" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+    <Output>
+      <StdOut>NUnit Adapter 4.4.0.0: Test execution started&#xD;
+Running all tests in c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\Debug\net7.0\mnglabs.genomemanager.tests.dll&#xD;
+   NUnit3TestExecutor discovered 3 of 3 NUnit test cases using Current Discovery mode, Non-Explicit run&#xD;
+NUnit Adapter 4.4.0.0: Test execution complete&#xD;
+</StdOut>
+    </Output>
+  </ResultSummary>
+</TestRun>

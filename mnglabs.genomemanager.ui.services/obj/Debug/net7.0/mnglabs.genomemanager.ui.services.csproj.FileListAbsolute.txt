@@ -1,0 +1,15 @@
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\bin\Debug\net7.0\mnglabs.genomemanager.ui.services.deps.json
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\bin\Debug\net7.0\mnglabs.genomemanager.ui.services.dll
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\bin\Debug\net7.0\mnglabs.genomemanager.ui.services.pdb
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\bin\Debug\net7.0\mnglabs.genomemanager.ui.Shared.dll
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\bin\Debug\net7.0\mnglabs.genomemanager.ui.Shared.pdb
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\mnglabs.genomemanager.ui.services.csproj.AssemblyReference.cache
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\mnglabs.genomemanager.ui.services.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\mnglabs.genomemanager.ui.services.AssemblyInfoInputs.cache
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\mnglabs.genomemanager.ui.services.AssemblyInfo.cs
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\mnglabs.genomemanager.ui.services.csproj.CoreCompileInputs.cache
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\mnglabs.genomemanager.ui.services.csproj.CopyComplete
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\mnglabs.genomemanager.ui.services.dll
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\refint\mnglabs.genomemanager.ui.services.dll
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\mnglabs.genomemanager.ui.services.pdb
+C:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.ui.services\obj\Debug\net7.0\ref\mnglabs.genomemanager.ui.services.dll

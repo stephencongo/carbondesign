@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "pyT7pBXnkIYRSpa5YT0JVABYlCQDP6bvpVvHQiHgeJ/wmP0oSch4waoOkBJWejYxore2jzbwlmM4NWMGt2rtUQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\labcorp.genomemanager.ui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\congos\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.18.1\\microsoft.visualstudio.azure.containers.tools.targets.1.18.1.nupkg.sha512"
+  ],
+  "logs": []
+}

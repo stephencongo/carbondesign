@@ -1,0 +1,50 @@
+﻿<div>
+    <div>
+        <a>mnglabs.genomemanager.ui</a>
+        <button title="Navigation menu" @onclick="ToggleNavMenu">
+            <span></span>
+        </button>
+        
+    </div>
+    
+</div>
+
+<div>
+    <AuthUserControl></AuthUserControl>
+    <nav>
+        <div>
+            <NavLink>
+                <span></span> Home
+            </NavLink>
+        </div>
+        
+        <div>
+            <NavLink href="fetchdata">
+                <span></span> Fetch data
+            </NavLink>
+        </div>
+        <div>
+            <NavLink href="review">
+                <span></span> Review
+            </NavLink>
+        </div>
+        <AuthorizeView>
+            <div>
+                <NavLink href="Logout">
+                    <span></span> Logout
+                </NavLink>
+            </div>
+        </AuthorizeView>
+    </nav>
+</div>
+
+@code {
+    private bool collapseNavMenu = true;
+
+    private string? NavMenuCssClass => collapseNavMenu ? "collapse" : null;
+
+    private void ToggleNavMenu()
+    {
+        collapseNavMenu = !collapseNavMenu;
+    }
+}

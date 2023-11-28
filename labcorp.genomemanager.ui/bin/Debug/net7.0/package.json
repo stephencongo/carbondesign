@@ -1,0 +1,14 @@
+{
+  "scss": {
+    "includePaths": [ "./node_modules/", "./node_modules/@carbon" ]
+  },
+  "dependencies": {
+    "@carbon/styles": "^1.42.0",
+    "carbon-components": "^10.58.10"
+  },
+  "devDependencies": {
+    "sass": "^1.69.5",
+    "sass-loader": "^13.3.2",
+    "webpack": "^5.89.0"
+  }
+}

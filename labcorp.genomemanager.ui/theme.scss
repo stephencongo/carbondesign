@@ -1,0 +1,4 @@
+﻿@use '@carbon/themes/scss/themes' as *;
+@use '@carbon/themes' with (
+  $theme: $g100
+);

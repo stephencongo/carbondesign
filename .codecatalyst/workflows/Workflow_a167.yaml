@@ -1,0 +1,165 @@
+Name: Workflow_a167
+SchemaVersion: "1.0"
+RunMode: QUEUED
+# Optional - Set automatic triggers.
+Triggers:
+  - Type: Push
+    Branches:
+      - develop
+
+# Required - Define action configurations.
+Actions:
+    BuildDocker:
+        Identifier: aws/build@v1
+        Environment:
+            Name: codecatalyst-ecs-environment
+            Connections:
+                - Name: 733961910710
+                  Role: CodeCatalystWorkflowDevelopmentRole-Labcorp-MNG
+        Inputs:
+            Sources:
+                - WorkflowSource
+        Outputs:
+            Artifacts:
+                - Name: BuildOutput
+                  Files:
+                    - "BuildOutput.txt"
+        Configuration:     
+            Steps:
+                - Run: bash buildGenomeManagerUI.sh &> BuildOutput.txt
+    UploadBuildOutput:
+        Identifier: aws/build@v1
+        DependsOn:
+          - BuildDocker
+        Environment:
+            Name: codecatalyst-ecs-environment
+            Connections:
+                - Name: 733961910710
+                  Role: CodeCatalystWorkflowDevelopmentRole-Labcorp-MNG
+        Inputs:
+            Artifacts:
+                - BuildOutput
+        Configuration:
+            Steps:
+                - Run: aws s3 sync . s3://mng-dev-deploy/workflow/BuildOutput
+    NotifyBuildStatus:
+        DependsOn: 
+          - UploadBuildOutput
+        Identifier: aws/lambda-invoke@v1
+        Environment:
+            Name: codecatalyst-ecs-environment
+            Connections:
+                - Name: 733961910710
+                  Role: CodeCatalystWorkflowDevelopmentRole-Labcorp-MNG
+        Inputs:
+            Sources:
+            - WorkflowSource
+        Compute:
+            Type: Lambda
+        Configuration:
+            RequestPayload: '{"Records": [{"sns": { "subject": "test succeeded","message":"Branch Name: ${WorkflowSource.BranchName}\nCommitID: ${WorkflowSource.CommitId}\nWorkflow-Name: NOT-AVAILABLE\nSTATUS: EXECUTED"}}]}'
+            ContinueOnError: false
+            AWSRegion: us-east-1
+            LogType: Tail
+            Function: arn:aws:lambda:us-east-1:733961910710:function:mng-lambda-gm-workflow-buildnotifications
+    RunUnitTests:
+        DependsOn:
+            - NotifyBuildStatus
+        Identifier: aws/managed-test@v1.0.0
+        Inputs:
+            Sources:
+                - WorkflowSource
+        Outputs:
+            Variables:
+                - UnitTestResult
+            AutoDiscoverReports:
+                Enabled: true
+                IncludePaths:
+                    - "**/TestResults/*"
+                ReportNamePrefix: TestResults
+                SuccessCriteria:
+                    PassRate: 100
+            Artifacts:
+                - Name: UnitTestReport
+                  Files:
+                    - "**/*.trx"
+        Configuration:
+            Steps:
+                - Run: curl -sSL https://dot.net/v1/dotnet-install.sh | bash /dev/stdin --channel 7.0
+                - Run: dotnet test --logger "trx;logfilename=testResults.trx" || true
+    Upload:
+        Identifier: aws/build@v1
+        DependsOn:
+          - RunUnitTests
+        Environment:
+            Name: codecatalyst-ecs-environment
+            Connections:
+                - Name: 733961910710
+                  Role: CodeCatalystWorkflowDevelopmentRole-Labcorp-MNG
+        Inputs:
+            Artifacts:
+                - UnitTestReport
+        Configuration:
+            Steps:
+                - Run: aws s3 sync . s3://mng-dev-deploy/workflow/UnitTestReport
+    RenderTaskDef:
+        DependsOn: 
+          - Upload
+        Identifier: aws/ecs-render-task-definition@v1
+        Inputs:
+            Sources:
+                - WorkflowSource
+            Variables:
+                - Name: REPOSITORY_URI
+                  Value: 733961910710.dkr.ecr.us-east-1.amazonaws.com/mnglabs.genomemanager.ui
+                - Name: IMAGE_TAG
+                  Value: latest
+        Configuration:      
+            task-definition: taskdef.json
+            container-name: genomemanager-ecs-container
+            image: 733961910710.dkr.ecr.us-east-1.amazonaws.com/mnglabs.genomemanager.ui:latest
+        Outputs:
+            Artifacts:
+                - Name: TaskDefArtifact
+                  Files: 
+                    - "task-definition*"
+            Variables:
+                - task-definition
+    DeployToECS:
+        DependsOn:
+            - RenderTaskDef
+        Identifier: aws/ecs-deploy@v1
+        Environment:
+          Name: codecatalyst-ecs-environment
+          Connections:
+            - Name: 733961910710
+              Role: CodeCatalystWorkflowDevelopmentRole-Labcorp-MNG
+        Inputs:
+         Sources: []
+         Artifacts:
+          - TaskDefArtifact
+        Configuration:
+         region: us-east-1
+         cluster: labcorp-genomemanager-web
+         service: service
+         task-definition: ${RenderTaskDef.task-definition}
+    NotifyMe:
+        DependsOn: 
+          - Upload
+        Identifier: aws/lambda-invoke@v1
+        Environment:
+            Name: codecatalyst-ecs-environment
+            Connections:
+                - Name: 733961910710
+                  Role: CodeCatalystWorkflowDevelopmentRole-Labcorp-MNG
+        Inputs:
+            Sources:
+            - WorkflowSource
+        Compute:
+            Type: Lambda
+        Configuration:
+            RequestPayload: '{"Records": [{"sns": { "subject": "test succeeded","message":"Branch Name: ${WorkflowSource.BranchName}\nCommitID: ${WorkflowSource.CommitId}\nWorkflow-Name: NOT-AVAILABLE\nSTATUS: EXECUTED"}}]}'
+            ContinueOnError: false
+            AWSRegion: us-east-1
+            LogType: Tail
+            Function: arn:aws:lambda:us-east-1:733961910710:function:mng-lambda-gm-workflow-notifications

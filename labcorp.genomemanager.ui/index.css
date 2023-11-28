@@ -1,0 +1,30 @@
+/* Error: This module was already loaded, so it can't be configured using "with".
+ *    ,--> node_modules\@carbon\themes\index.scss
+ * 8  |   @forward 'scss/config';
+ *    |   ^^^^^^^^^^^^^^^^^^^^^^ new load
+ *    '
+ *    ,--> node_modules\@carbon\styles\scss\theme\_theme.scss
+ * 9  | / @use '@carbon/themes/scss/config' with (
+ * 10 | |   $prefix: $prefix
+ * 11 | | );
+ *    | '-^ original load
+ *    '
+ *    ,--> index.scss
+ * 8  | / @use 'node_modules/@carbon/themes' with (
+ * 9  | |   $theme: $g100
+ * 10 | | );
+ *    | '-^ configuration
+ *    '
+ *   node_modules\@carbon\themes\index.scss 8:1  @use
+ *   index.scss 8:1                              root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: This module was already loaded, so it can't be configured using \"with\".\a    \250c \2500 \2500 > node_modules\\@carbon\\themes\\index.scss\a 8  \2502    @forward 'scss/config';\a    \2502    ^^^^^^^^^^^^^^^^^^^^^^ new load\a    \2575 \a    \250c \2500 \2500 > node_modules\\@carbon\\styles\\scss\\theme\\_theme.scss\a 9  \2502  \250c  @use '@carbon/themes/scss/config' with (\a 10 \2502  \2502    $prefix: $prefix\a 11 \2502  \2502  );\a    \2502  \2514 \2500 ^ original load\a    \2575 \a    \250c \2500 \2500 > index.scss\a 8  \2502  \250c  @use 'node_modules/@carbon/themes' with (\a 9  \2502  \2502    $theme: $g100\a 10 \2502  \2502  );\a    \2502  \2514 \2500 ^ configuration\a    \2575 \a   node_modules\\@carbon\\themes\\index.scss 8:1  @use\a   index.scss 8:1                              root stylesheet";
+}

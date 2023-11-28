@@ -1,0 +1,34 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "mnglabs.genomemanager.ui/1.0.0": {
+        "dependencies": {
+          "Microsoft.NET.Build.Containers": "7.0.400"
+        },
+        "runtime": {
+          "mnglabs.genomemanager.ui.dll": {}
+        }
+      },
+      "Microsoft.NET.Build.Containers/7.0.400": {}
+    }
+  },
+  "libraries": {
+    "mnglabs.genomemanager.ui/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.NET.Build.Containers/7.0.400": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4DfJuN5nCYmfIALEuSKeIEiSNA1oukrT5KQ67M4/gW2Y/ElnrMaFBypgo8JwnMHHTaxrAxp3KPtDUrIXSKhW9w==",
+      "path": "microsoft.net.build.containers/7.0.400",
+      "hashPath": "microsoft.net.build.containers.7.0.400.nupkg.sha512"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>a56cfcf3-ad21-4b62-ab8c-0382e3dadf51</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\mnglabs.genomemanager.ui.services\mnglabs.genomemanager.ui.services.csproj" />
+    <ProjectReference Include="..\mnglabs.genomemanager.ui.Shared\mnglabs.genomemanager.ui.Shared.csproj" />
+  </ItemGroup>
+
+</Project>

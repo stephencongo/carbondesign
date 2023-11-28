@@ -1,0 +1,11 @@
+  Determining projects to restore...
+  All projects are up-to-date for restore.
+  mnglabs.genomemanager.tests -> c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\Debug\net7.0\mnglabs.genomemanager.tests.dll
+Test run for c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\Debug\net7.0\mnglabs.genomemanager.tests.dll (.NETCoreApp,Version=v7.0)
+Microsoft (R) Test Execution Command Line Tool Version 17.6.0 (x64)
+Copyright (c) Microsoft Corporation.  All rights reserved.
+
+Starting test execution, please wait...
+A total of 1 test files matched the specified pattern.
+
+Passed!  - Failed:     0, Passed:     3, Skipped:     0, Total:     3, Duration: 25 ms - mnglabs.genomemanager.tests.dll (net7.0)

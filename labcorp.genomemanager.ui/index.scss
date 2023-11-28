@@ -1,0 +1,13 @@
+﻿
+
+@use 'node_modules/@carbon/styles';
+
+@use 'node_modules/@carbon/styles/scss/components';
+
+@use 'node_modules/@carbon/themes/scss/themes' as *;
+@use 'node_modules/@carbon/themes' with (
+  $theme: $g100
+);
+
+
+

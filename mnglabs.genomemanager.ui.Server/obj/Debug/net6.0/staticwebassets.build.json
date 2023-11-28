@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "TSKw7eUAmEBvD43o7I1SqzRWqzW3/5XBiE+Jl4o3dVE=",
+  "Source": "mnglabs.genomemanager.ui.Server",
+  "BasePath": "_content/mnglabs.genomemanager.ui.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

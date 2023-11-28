@@ -1,0 +1,93 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\labcorp.genomemanager.ui.bundle.scp.css",
+      "PackagePath": "staticwebassets\\labcorp.genomemanager.ui.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\index.css",
+      "PackagePath": "staticwebassets\\index.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\index.css.map",
+      "PackagePath": "staticwebassets\\index.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\theme.css",
+      "PackagePath": "staticwebassets\\theme.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\labcorp.genomemanager.ui\\wwwroot\\theme.css.map",
+      "PackagePath": "staticwebassets\\theme.css.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.labcorp.genomemanager.ui.props",
+      "PackagePath": "build\\labcorp.genomemanager.ui.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.labcorp.genomemanager.ui.props",
+      "PackagePath": "buildMultiTargeting\\labcorp.genomemanager.ui.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.labcorp.genomemanager.ui.props",
+      "PackagePath": "buildTransitive\\labcorp.genomemanager.ui.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.labcorp.genomemanager.ui.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

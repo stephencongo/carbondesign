@@ -1,0 +1,22 @@
+/* Error: Can't find stylesheet to import.
+ *    ,
+ * 8  | / @forward '@carbon/layout/scss/spacing' show $spacing, $spacing-01, $spacing-02,
+ * 9  | |   $spacing-03, $spacing-04, $spacing-05, $spacing-06, $spacing-07, $spacing-08,
+ * 10 | |   $spacing-09, $spacing-10, $spacing-11, $spacing-12, $spacing-13,
+ * 11 | |   $fluid-spacing-01, $fluid-spacing-02, $fluid-spacing-03, $fluid-spacing-04;
+ *    | '----------------------------------------------------------------------------^
+ *    '
+ *   css\@carbon\styles\scss\_spacing.scss 8:1  @forward
+ *   css\@carbon\styles\index.scss 9:1          @use
+ *   css\index.scss 1:2                         root stylesheet */
+
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono",
+      "Droid Sans Mono", monospace, monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Can't find stylesheet to import.\a    \2577 \a 8  \2502  \250c  @forward '@carbon/layout/scss/spacing' show $spacing, $spacing-01, $spacing-02,\a 9  \2502  \2502    $spacing-03, $spacing-04, $spacing-05, $spacing-06, $spacing-07, $spacing-08,\a 10 \2502  \2502    $spacing-09, $spacing-10, $spacing-11, $spacing-12, $spacing-13,\a 11 \2502  \2502    $fluid-spacing-01, $fluid-spacing-02, $fluid-spacing-03, $fluid-spacing-04;\a    \2502  \2514 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 \2500 ^\a    \2575 \a   css\\@carbon\\styles\\scss\\_spacing.scss 8:1  @forward\a   css\\@carbon\\styles\\index.scss 9:1          @use\a   css\\index.scss 1:2                         root stylesheet";
+}

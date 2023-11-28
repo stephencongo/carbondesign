@@ -1,0 +1,10 @@
+MSBuild version 17.6.3+07e294721 for .NET
+  Determining projects to restore...
+  Restored c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\labcorp.genomemanager.ui.csproj (in 211 ms).
+  Restored c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\mnglabs.genomemanager.tests.csproj (in 211 ms).
+  mnglabs.genomemanager.tests -> c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\Release\net7.0\linux-x64\mnglabs.genomemanager.tests.dll
+C:\Program Files\dotnet\sdk\7.0.304\Sdks\Microsoft.NET.Sdk\targets\Microsoft.NET.Publish.targets(124,5): warning NETSDK1198: A publish profile with the name 'DefaultContainer' was not found in the project. Set the PublishProfile property to a valid file name. [c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\mnglabs.genomemanager.tests.csproj]
+  mnglabs.genomemanager.tests -> c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\mnglabs.genomemanager.tests\bin\Release\net7.0\linux-x64\publish\
+  labcorp.genomemanager.ui -> c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\labcorp.genomemanager.ui.dll
+  labcorp.genomemanager.ui -> c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\bin\Release\net7.0\linux-x64\publish\
+C:\Program Files\dotnet\sdk\7.0.304\Sdks\Microsoft.NET.Sdk.Publish\targets\DotNetCLIToolTargets\Microsoft.NET.Sdk.DotNetCLITool.targets(104,11): error MSB4057: The target "PublishContainer" does not exist in the project. [c:\Projects\git\mnglabs.genomemanager.ui2\mnglabs.genomemanager.ui\labcorp.genomemanager.ui\labcorp.genomemanager.ui.csproj]

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\labcorp.genomemanager.ui.props" />
+</Project>

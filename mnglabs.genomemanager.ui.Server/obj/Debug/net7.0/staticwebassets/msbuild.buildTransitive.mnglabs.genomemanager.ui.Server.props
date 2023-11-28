@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\buildMultiTargeting\mnglabs.genomemanager.ui.Server.props" />
+</Project>

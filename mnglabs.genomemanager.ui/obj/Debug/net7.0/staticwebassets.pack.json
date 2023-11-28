@@ -1,0 +1,305 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\ICON-LICENSE",
+      "PackagePath": "staticwebassets\\css\\open-iconic"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\README.md",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\README.md"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\css\\open-iconic-bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.eot",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.eot"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.otf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.otf"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.svg",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.svg"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.ttf",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.ttf"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\open-iconic\\font\\fonts\\open-iconic.woff",
+      "PackagePath": "staticwebassets\\css\\open-iconic\\font\\fonts\\open-iconic.woff"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.classless.css",
+      "PackagePath": "staticwebassets\\css\\pico.classless.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.classless.css.map",
+      "PackagePath": "staticwebassets\\css\\pico.classless.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.classless.min.css",
+      "PackagePath": "staticwebassets\\css\\pico.classless.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.classless.min.css.map",
+      "PackagePath": "staticwebassets\\css\\pico.classless.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.css",
+      "PackagePath": "staticwebassets\\css\\pico.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.css.map",
+      "PackagePath": "staticwebassets\\css\\pico.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.fluid.classless.css",
+      "PackagePath": "staticwebassets\\css\\pico.fluid.classless.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.fluid.classless.css.map",
+      "PackagePath": "staticwebassets\\css\\pico.fluid.classless.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.fluid.classless.min.css",
+      "PackagePath": "staticwebassets\\css\\pico.fluid.classless.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.fluid.classless.min.css.map",
+      "PackagePath": "staticwebassets\\css\\pico.fluid.classless.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.min.css",
+      "PackagePath": "staticwebassets\\css\\pico.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.min.css.map",
+      "PackagePath": "staticwebassets\\css\\pico.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.slim.css",
+      "PackagePath": "staticwebassets\\css\\pico.slim.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.slim.css.map",
+      "PackagePath": "staticwebassets\\css\\pico.slim.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.slim.min.css",
+      "PackagePath": "staticwebassets\\css\\pico.slim.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\pico.slim.min.css.map",
+      "PackagePath": "staticwebassets\\css\\pico.slim.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\postcss.config.js",
+      "PackagePath": "staticwebassets\\css\\postcss.config.js"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\themes\\default.css",
+      "PackagePath": "staticwebassets\\css\\themes\\default.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\themes\\default.css.map",
+      "PackagePath": "staticwebassets\\css\\themes\\default.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\themes\\default.min.css",
+      "PackagePath": "staticwebassets\\css\\themes\\default.min.css"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\css\\themes\\default.min.css.map",
+      "PackagePath": "staticwebassets\\css\\themes\\default.min.css.map"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\_functions.scss",
+      "PackagePath": "staticwebassets\\scss\\_functions.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\_variables.scss",
+      "PackagePath": "staticwebassets\\scss\\_variables.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\components\\_accordion.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_accordion.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\components\\_card.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_card.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\components\\_dropdown.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_dropdown.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\components\\_modal.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_modal.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\components\\_nav.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_nav.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\components\\_progress.scss",
+      "PackagePath": "staticwebassets\\scss\\components\\_progress.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_button.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_button.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_code.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_code.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_embedded.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_embedded.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_form-alt-input-types.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_form-alt-input-types.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_form-checkbox-radio.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_form-checkbox-radio.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_form.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_form.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_miscs.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_miscs.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_table.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_table.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\content\\_typography.scss",
+      "PackagePath": "staticwebassets\\scss\\content\\_typography.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\layout\\_container.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_container.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\layout\\_document.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_document.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\layout\\_grid.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_grid.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\layout\\_scroller.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_scroller.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\layout\\_section.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_section.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\layout\\_sectioning.scss",
+      "PackagePath": "staticwebassets\\scss\\layout\\_sectioning.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\pico.classless.scss",
+      "PackagePath": "staticwebassets\\scss\\pico.classless.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\pico.fluid.classless.scss",
+      "PackagePath": "staticwebassets\\scss\\pico.fluid.classless.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\pico.scss",
+      "PackagePath": "staticwebassets\\scss\\pico.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\pico.slim.scss",
+      "PackagePath": "staticwebassets\\scss\\pico.slim.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\postcss.config.js",
+      "PackagePath": "staticwebassets\\scss\\postcss.config.js"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\themes\\default.scss",
+      "PackagePath": "staticwebassets\\scss\\themes\\default.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\themes\\default\\_colors.scss",
+      "PackagePath": "staticwebassets\\scss\\themes\\default\\_colors.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\themes\\default\\_dark.scss",
+      "PackagePath": "staticwebassets\\scss\\themes\\default\\_dark.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\themes\\default\\_light.scss",
+      "PackagePath": "staticwebassets\\scss\\themes\\default\\_light.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\themes\\default\\_styles.scss",
+      "PackagePath": "staticwebassets\\scss\\themes\\default\\_styles.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\utilities\\_accessibility.scss",
+      "PackagePath": "staticwebassets\\scss\\utilities\\_accessibility.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\utilities\\_loading.scss",
+      "PackagePath": "staticwebassets\\scss\\utilities\\_loading.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\utilities\\_reduce-motion.scss",
+      "PackagePath": "staticwebassets\\scss\\utilities\\_reduce-motion.scss"
+    },
+    {
+      "Id": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\wwwroot\\scss\\utilities\\_tooltip.scss",
+      "PackagePath": "staticwebassets\\scss\\utilities\\_tooltip.scss"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.mnglabs.genomemanager.ui.props",
+      "PackagePath": "build\\mnglabs.genomemanager.ui.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.mnglabs.genomemanager.ui.props",
+      "PackagePath": "buildMultiTargeting\\mnglabs.genomemanager.ui.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.mnglabs.genomemanager.ui.props",
+      "PackagePath": "buildTransitive\\mnglabs.genomemanager.ui.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.mnglabs.genomemanager.ui.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

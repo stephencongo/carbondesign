@@ -1,0 +1,63 @@
+﻿@page "/"
+@namespace mnglabs.genomemanager.ui.Pages
+
+@using System.Net
+@using Microsoft.JSInterop
+@inject Microsoft.AspNetCore.Antiforgery.IAntiforgery Xsrf
+
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+    Layout = "_Layout";
+
+
+    
+
+}
+
+<component type="typeof(App)" render-mode="ServerPrerendered" />
+<script>
+    window.WriteCookie = {
+
+        WriteCookie: function (name, value, days) {
+
+            var expires;
+            if (days) {
+                var date = new Date();
+                date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
+                expires = "; expires=" + date.toGMTString();
+            }
+            else {
+                expires = "";
+            }
+            document.cookie = name + "=" + value + expires + ";secure=true;path=/";
+        }
+    }
+    window.ReadCookie = {
+        ReadCookie: function (cname) {
+            var name = cname + "=";
+            var decodedCookie = decodeURIComponent(document.cookie);
+            var ca = decodedCookie.split(';');
+            for (var i = 0; i < ca.length; i++) {
+                var c = ca[i];
+                while (c.charAt(0) == ' ') {
+                    c = c.substring(1);
+                }
+                if (c.indexOf(name) == 0) {
+                    return c.substring(name.length, c.length);
+                }
+            }
+            return "";
+        }
+    }
+    window.DeleteCookie = {
+        DeleteCookie: function (name) {
+            document.cookie = name + '=; Path=/; Expires=Thu, 01 Jan 1970 00:00:01 GMT;';
+        }
+    }
+    function GetAddress(){
+        var script = document.createElement("script");
+        script.type = "text/javascript";
+        script.src = "https://api.ipify.org?format=jsonp&callback=DisplayIP";
+        document.getElementsByTagName("head")[0].appendChild(script);
+    }
+</script>

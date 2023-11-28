@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OiULNde/1BJewJUFnRUQEnRXQITXnGKVSbpnW6nD3MmoyaFQOvgvo5e1RbMusc+HMd7Re4pr71E9lF1cIB65kQ==",
+  "success": true,
+  "projectFilePath": "C:\\Projects\\git\\mnglabs.genomemanager.ui2\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui\\mnglabs.genomemanager.ui.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\congos\\.nuget\\packages\\microsoft.net.build.containers\\7.0.400\\microsoft.net.build.containers.7.0.400.nupkg.sha512"
+  ],
+  "logs": []
+}
